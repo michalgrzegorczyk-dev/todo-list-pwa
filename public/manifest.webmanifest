@@ -1,6 +1,6 @@
 {
-  "name": "todolist-pwa",
-  "short_name": "todolist-pwa",
+  "name": "todo-list-pwa",
+  "short_name": "todo-list-pwa",
   "theme_color": "#1976d2",
   "background_color": "#fafafa",
   "display": "standalone",

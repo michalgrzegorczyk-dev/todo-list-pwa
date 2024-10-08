@@ -1,1 +1,1 @@
-minimalistic todolist pwa example
+minimalistic todo list pwa example

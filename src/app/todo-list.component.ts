@@ -26,7 +26,7 @@ import { FormsModule } from '@angular/forms';
       </code>
 
       <code>
-        http-server dist/todolist-pwa -p 8080 -c-1
+        http-server dist/todo-list-pwa -p 8080 -c-1
       </code>
     </pre>
   `,

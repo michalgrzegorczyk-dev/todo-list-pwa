@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "todolist-pwa": {
+    "todo-list-pwa": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/todolist-pwa",
+            "outputPath": "dist/todo-list-pwa",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": ["zone.js"],
@@ -59,10 +59,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "todolist-pwa:build:production"
+              "browserTarget": "todo-list-pwa:build:production"
             },
             "development": {
-              "browserTarget": "todolist-pwa:build:development"
+              "browserTarget": "todo-list-pwa:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -70,7 +70,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "todolist-pwa:build"
+            "browserTarget": "todo-list-pwa:build"
           }
         },
         "test": {
